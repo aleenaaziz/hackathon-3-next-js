@@ -31,7 +31,7 @@ const NavbarClient = () => {
         </h1>
 
         {/* Icons Section (Desktop) */}
-        <div className="hidden md:flex gap-4 items-center relative">
+        <div className="sm:hidden md:flex gap-4 items-center relative">
           {/* Wishlist */}
           <Link href="/wishlist" className="relative" aria-label="Wishlist">
             <span className='absolute -top-1 -right-2 text-xs bg-red-500 rounded-full px-1.5 py-0.5 text-white'>
